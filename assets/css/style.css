@@ -8,6 +8,7 @@ html, body{
    width: 250px;
    float:left;
    margin: 20px 20px 20px 0;
+ 
 
 }
 
@@ -50,11 +51,11 @@ h1{
     padding:15px;
     color:#ffffff;
     margin-left: 10%;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;  
     line-height: 100%;
-    margin: 0px 0px 0px 5%;
+  
 }
 
 .sectionHeader{
@@ -79,7 +80,6 @@ background-color: #ffffff;
 border: 1px solid #dddddd;
 margin: 0px 0 40px;
 padding: 30px;
-max-width: 650px;
 width: 100%;
 flex: 1 0 auto;
 }
@@ -112,8 +112,7 @@ footer {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #ffffff;
     border-bottom: 3px solid #cccccc;
-    padding-bottom: 0px;
-    margin: 0 0 30px 0;
+    padding-bottom: 0px; 
     width:100% ;
     flex: 0;
     overflow: auto;
@@ -234,3 +233,103 @@ input[type=submit]:hover{
     margin-right: 35px;
 }
 
+@media only screen and (max-width: 980px) {
+    .header{
+        padding-bottom: 0px;
+        height: 120px;
+    
+    }
+
+    h1{
+        margin-left: 5%;
+        line-height: 110%;
+    }
+    nav{
+        margin-right: 20px;
+    }
+    .content {
+        max-width: 70%;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .header{
+        padding-bottom: 0px;
+        height: 120px;
+        position: static;
+    }
+
+    h1{
+        margin-left: 5%;
+        line-height: 110%;
+    }
+    nav{
+        margin-right: 20px;
+    }
+    #mainContainer{
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .header{
+        overflow: hidden;
+        margin: 0px, 0px, 0px, 20px;
+        position: static;
+        max-width: 100%;
+    }
+ 
+    .content{
+        max-width: 100%;
+    }
+    
+    .Titlename{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        height: 100%;
+        float:none;
+    }
+    nav {
+        margin-top: 5px;
+        text-align: center;
+        float: none;
+    }
+          
+    h1 {
+    margin: 0px;
+}
+
+#mainContainer{
+    padding-top: 20px;
+}
+
+#profile {
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 300px;
+    display:block;
+}
+
+.portfolio{
+    float:none;
+    width: 450px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio:nth-child(odd){
+    margin-right: auto;
+}
+.portfolio img{
+    width: 100%;
+    height: 300px;
+    
+}
+
+}
