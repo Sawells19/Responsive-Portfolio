@@ -203,7 +203,7 @@ input[type=submit]:hover{
         float: left;
         width: 273px;
         margin: 20px 0 25px;
-        overflow: auto;
+        overflow: none;
         position: relative;
 
     }
